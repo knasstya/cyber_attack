@@ -1,0 +1,1568 @@
+Attack Type,Trigram,Count
+.NET Assembly Obfuscation,constrained language mode,1
+AI Code Suggestion Leak,educate users on,1
+API Decryption Oracle in Key Management Service,apply least privilege,1
+API Explain Call Leaks Raw Features,role based access,1
+API-Level Race Condition,use server side,1
+ARP Cache Poisoning + Broadcast Abuse,arp inspection dai,1
+ARP Cache Poisoning + Broadcast Abuse,dynamic arp inspection,1
+ARP Cache Poisoning + Broadcast Abuse,static arp entries,1
+ARP Cache Poisoning + Packet Sniffing,arp inspection dai,1
+ARP Cache Poisoning + Packet Sniffing,dynamic arp inspection,1
+ARP Cache Poisoning + Packet Sniffing,educate users not,1
+ARP Cache Poisoning + Packet Sniffing,static arp entries,1
+ARP Cache Poisoning + Packet Sniffing,use static arp,1
+ARP Poisoning,dynamic arp inspection,1
+ARP Spoofing & Proxying,static arp entries,1
+ARP Spoofing & Proxying,use static arp,1
+ARP Spoofing + Sniffing,arp inspection dai,1
+ARP Spoofing + Sniffing,dynamic arp inspection,1
+ARP Spoofing + Sniffing,static arp entries,1
+ARP Spoofing + Sniffing,use static arp,1
+ARP Spoofing Persistence,dynamic arp inspection,1
+ARP Spoofing for Default Gateway Hijack,enable dhcp snooping,1
+ARP Spoofing for Default Gateway Hijack,use static arp,1
+ARP Spoofing via Probe Response Injection,dynamic arp inspection,1
+ARP Spoofing via Probe Response Injection,enable dhcp snooping,1
+ASLR Bypass / Heap Info Leak,do not trust,1
+Abuse of Automation / Privilege Escalation,enforce least privilege,1
+Abuse of Automation / Privilege Escalation,least privilege on,1
+Abuse of Rate Limiting / Access-Control Controls,enforce server side,1
+Abuse of Split Tunneling in VPNs,educate users on,1
+Abuse of Unauthenticated Backend APIs,access to internal,1
+Abuse of Unauthenticated Backend APIs,disable public access,1
+Abusing Accessibility Services → Click Injection,use behavior based,1
+Abusing Accessibility Services → Full Remote Control,use behavior based,1
+Abusing Accessibility Services → Keylogging via Accessibility Events,use behavior based,1
+Abusing Accessibility Services → Overlay Phishing,from unknown sources,1
+Abusing Email Auto-forwarding Rules,and alert on,1
+Abusing Email Auto-forwarding Rules,sanitize and validate,1
+Accidental Credential Leakage,store secrets in,1
+Acoustic/Hardware Side Channel,limit access to,1
+Active MITM + Denial of Service (Layer 2),dynamic arp inspection,1
+Active MITM + Denial of Service (Layer 2),static arp entries,1
+Active MITM + Denial of Service (Layer 2),use static arp,1
+Active MITM + Payload Injection,end to end,1
+Active Network MITM + HTTPS Downgrade Sniffing,dynamic arp inspection,1
+Active Network MITM + HTTPS Downgrade Sniffing,enable dhcp snooping,1
+Active Probing,disable auto connect,1
+Active Probing,educate users to,1
+Adversarial Data Exploitation via Overfitting,use adversarial training,1
+Adversarial Example (Black-box),add noise to,1
+Adversarial Example (White-box),use adversarial training,2
+Agent Exploit,human in the,1
+Agent Exploit,in the loop,1
+Agent Planning Passes Sensitive Input,sanitize user input,1
+Aggregation Reconstruction from Gradient Updates,add noise to,1
+Aggregation Reconstruction from Gradient Updates,noise to gradients,1
+App Hijack and Privilege Escalation via Desktop Entry,by default use,1
+App image poisoning during update,write access to,1
+AppArmor / Seccomp Bypass,apply least privilege,1
+Arbitrary File Overwrite / RCE,write access to,1
+Archive Extraction Path Traversal,validate and sanitize,1
+Attack on RSA + Symmetric Hybrid Schemes,use rsa oaep,1
+Auth Bypass via Malicious Object Deserialization,server side validation,1
+Auth Cookie Oracle → Privilege Escalation,aes gcm or,1
+Authentication Bypass,enforce server side,1
+Authentication Bypass,use long random,1
+Authentication Bypass in VNC,enforce strong passwords,2
+Authentication Bypass via Lack of MFA,enforce strong passwords,1
+Authentication Protocol Sniffing + Replay,use strong encryption,1
+Authorization & Input Tampering,server side validation,1
+Autocomplete Data Extraction,apply differential privacy,1
+Automated Phishing Message Crafting,train users to,1
+Automated Phishing Message Crafting,users to verify,1
+BLE Injection Attack,end to end,1
+Backdoor Attack,anomaly detection on,1
+Backdoor via Pixel/Pattern Injection,use adversarial training,1
+Backdoor via Repackaging,use code signing,1
+Backend Deserialization Exploit,validate and sanitize,1
+Base Image Tampering,from trusted sources,1
+Beacon Frame Flooding,disable auto connect,3
+Beacon Frame Flooding,auto connect to,2
+Binary Tampering that Bypasses Hash Check,use secure boot,1
+Biometric Authentication Bypass,do not trust,1
+Biometric Authentication Bypass,enforce server side,1
+Biometric Authentication Bypass,rate limiting and,1
+Biometric Authentication Bypass,server side validation,1
+Black-box CNN Model Stealing via Label Leaks,apply differential privacy,1
+Black-box Evasion via API Querying,use adversarial training,1
+Blind Injection via Time Delay,and validate all,1
+Blind Injection via Time Delay,sanitize and validate,1
+Block Mapping with Known Plaintext,aes gcm or,1
+Bluetooth Exploits (BlueBorne & Others),if not needed,1
+Bluetooth Spoofing,auto connect to,1
+Bluetooth Spoofing,disable auto connect,1
+Bluetooth Spoofing,educate users to,1
+Bookmark-Based Phishing via Web Clip Icon,educate users on,1
+Boot-Level Persistence (Config Tampering),full disk encryption,1
+Boot-Time Local Privilege Escalation,full disk encryption,1
+Boot-Time Local Privilege Escalation,use secure boot,1
+Bootloader Configuration Exploit,full disk encryption,1
+Bootloader Configuration Exploit,restrict write access,1
+Bootloader Configuration Exploit,write access to,1
+Bounce Message Abuse,educate users on,1
+"Broken Cryptography (Hardcoded Keys, Weak Algorithms)",use short lived,1
+Browser Extension Abuse,educate users on,1
+Browser Extension Abuse,on server side,1
+Brute Force Credential Guessing,restrict access to,1
+Brute Force Login (CMS Panel),enforce strong passwords,1
+Brute Force Login (RDP),if not needed,1
+Brute Force Login (SMB/Windows),enforce strong passwords,1
+Brute Forcing Email Auth via SMTP or IMAP,enforce strong passwords,1
+Brute Forcing Email Auth via SMTP or IMAP,implement rate limiting,1
+Brute Forcing GPG/PGP Key Passphrases,use long random,1
+Brute Forcing Numeric PINs or One-Time Passwords,alert on suspicious,1
+Brute-Force Preimage Attack,sha 256 or,1
+Buffer Overflow Prep,input validation and,1
+Buffer Overflow Prep,strict input validation,1
+Build Script Injection,disable script execution,1
+BuildKit Misuse,use read only,1
+Business Email Compromise (BEC),educate users on,1
+Business Email Compromise (BEC),enforce strong passwords,1
+Business Logic Abuse,server side validation,1
+Business Logic Bypass,end to end,1
+Bypass Client-Side Restrictions,server side validation,1
+C2 Over HTTPS,deep packet inspection,2
+CA Certificate Chain Forgery via Collision,use sha 256,1
+CAPTCHA Token Prediction or Reuse,server side validation,1
+CAPTCHA Weakness Exploitation via Automation,implement rate limiting,1
+CBC Chosen-Plaintext Attack via JavaScript,aes gcm or,1
+CDN Impersonation via Prefix Hijack,end to end,1
+CI Variable Exposure,restrict log access,1
+CI/CD Log Exposure,in ci cd,1
+CI/CD Logging Misuse,restrict log access,1
+CI/CD Token Exposure,in ci cd,1
+CPU Cache Side-Channel,use constant time,2
+CSP,content security policy,1
+CSP,enforce server side,1
+CSP,use content security,1
+CSRF (Cross-Site Request Forgery) + Cross-Origin Requests,content security policy,1
+"CSRF (Cross-Site Request Forgery), XSS (Cross-Site Scripting)",content security policy,1
+CSRF with GET Forms & Auto Image Loads,educate users on,1
+CSS Leak (Timing/Style-based),sanitize user input,1
+Cable-Based Keylogger,from trusted sources,1
+Cache Line Eviction-Based Inference,implement constant time,1
+Cache Side-Channel in Multi-Tenant Clouds,constant time crypto,1
+Cache Side-Channel on AES Implementation,use constant time,1
+Cache-Based Side-Channel via Timing,use constant time,1
+Calendar Recon,train users to,1
+Canary Injection + Detection,train with dp,1
+Capture Usernames/Passwords in Transit,train users to,1
+Cellular Attack,end to end,1
+Certificate Brute Force / Weak Crypto,use short lived,1
+Chip Replacement Attack,secure boot and,1
+Chip Replacement Attack,use secure boot,1
+Chip-Off Attack,full disk encryption,1
+Chosen Input Model Inference,apply differential privacy,1
+Chosen Plaintext Attack (CPA) via Patterns,implement constant time,1
+Cipher Block Chaining + CPA on Disk Volumes,full disk encryption,1
+Classic Prompt Injection Attack,validate and sanitize,1
+Clickjacking,user input use,2
+Clickjacking,educate users on,1
+Clickjacking,use frame options,1
+Clickjacking (Advanced Type),content security policy,1
+Clickjacking (Advanced Type),frame options deny,1
+Clickjacking (Advanced Type),use content security,1
+Clickjacking (Advanced Type),use frame options,1
+Clickjacking (Advanced),frame options deny,1
+Clickjacking (Advanced),use frame options,1
+Clickjacking (UI Redress),frame options deny,3
+Clickjacking (UI Redress),content security policy,2
+Clickjacking (UI Redress),use frame options,2
+Clickjacking (UI Redress),use content security,1
+Clickjacking + OAuth Abuse,content security policy,1
+Clickjacking + OAuth Abuse,frame options deny,1
+Clickjacking + OAuth Abuse,use frame options,1
+Clickjacking / UI Manipulation,use frame options,1
+Client Disassociation (DoS),open wi fi,1
+Client-Side Data Manipulation,never trust client,1
+Client-Side Injection for Encryption Key Manipulation,use server side,1
+Client-Side Input Manipulation,enforce server side,1
+Client-Side Logic Manipulation,on server side,1
+Client-Side Logic Tampering via LocalStorage Overwrite,use server side,1
+Client-Side Timing-Based Side-Channel,use constant time,1
+Client-side JavaScript filter bypass,server side validation,1
+Clipboard Hijacking → Command Injection,educate users not,1
+Clipboard Hijacking → Command Injection,users not to,1
+Clipboard Hijacking → Crypto Address Injection,from unknown sources,1
+Clipboard Hijacking → Persistent Clipboard Logger,educate users to,1
+Clipboard Hijacking → WebView-Based Data Theft,educate users to,1
+Cloud API Padding Oracle Exploit,use rsa oaep,1
+Cloud Metadata API Exposure via Internal Misconfig,apply least privilege,1
+Cloud Ransomware via Accessed VMs / Storage,disable public access,1
+Cloud Ransomware via Accessed VMs / Storage,rotate keys regularly,1
+Code Execution via Deserialization,input validation and,1
+Code Execution via Deserialization,user input use,1
+Code Injection / Abuse via Cloud Messaging,strict input validation,1
+Code Injection in Structured Labelers,use parameterized queries,1
+Code Injection via proc mem using race condition,write access to,1
+Code Recon,store secrets in,1
+Cold RAM Dump,full disk encryption,1
+Collaborative GAN-based Gradient Leakage,add dp noise,1
+Collection & Exfiltration → Unauthorized Query Execution via SQLi,use parameterized queries,1
+Collection & Exfiltration → Visual Recon via Scripted Capture,restrict access to,1
+Collision Attack on MD5/SHA1,sha 256 or,1
+Collision in Hash-Chained Logs,sha 256 or,1
+Collision in Hash-Chained Logs,use sha 256,1
+Collision-Based Key or Message Forgery,sha 256 or,1
+Combined Fault Injection and Padding Oracle,use rsa oaep,1
+Combined Model Extraction and Data Reconstruction,add noise to,1
+Command Injection Attacks,input validation and,1
+Command Injection via Prompt,block access to,1
+Command Line Analysis,constrained language mode,2
+Command Line Analysis,alert on suspicious,1
+Command Line Analysis,script block logging,1
+Command and Control → Web C2 Using Agent Handlers,script block logging,3
+Command-Line Analysis,script block logging,1
+Command-and-Control (C2) / Persistence,enforce least privilege,1
+Compliance/Internal Viewer Sends Explanations Publicly,sanitize and validate,1
+Concept Drift via Poisoned Metadata,anomaly detection on,1
+Config Poisoning via Manifest Rewriting,educate users to,1
+Configuration File Misuse,in ci cd,1
+Configuration Profile Abuse (DNS/Proxy/Cert),from trusted sources,1
+Connection Reset via Forged RST,deep packet inspection,1
+Container Breakout / Escape,use read only,1
+Container Data Exposure via Volume Enumeration,use read only,1
+Container Supply Chain,in ci cd,1
+Container Supply Chain,use only verified,1
+Context Injection via Malicious Retrieval,strict input validation,1
+Continuous ACK response loop,deep packet inspection,1
+Copycat Token Scam on DEX,educate users on,1
+Covert Channel Using ARP Hardware/Protocol Fields,arp inspection dai,1
+Covert Data Exfiltration via DNS,and alert on,1
+Covert Data Leak via Subdomain DNS Requests,block access to,1
+Covert Reverse Shell / Firewall Evasion via ICMP,disable script execution,1
+Covert Reverse Shell / Firewall Evasion via ICMP,use behavior based,1
+Crash Device or Jam BLE via Advertisement Flood,implement rate limiting,1
+Credential Brute Force,enforce strong passwords,1
+Credential Brute Force,multi factor authentication,1
+Credential Brute Force (SMB),access to internal,1
+Credential Brute Force (SMB),enforce strong passwords,1
+Credential Brute Force (SMB),to internal ips,1
+Credential Dumping via Offline Registry Access,full disk encryption,1
+Credential Dumping via Registry Export,and alert on,1
+Credential Guessing / Token Abuse,use long random,1
+Credential Harvest via Expiry Threat,educate users on,1
+Credential Harvesting via Email,educate users on,1
+Credential Harvesting via Registry Access,apply least privilege,1
+Credential Harvesting via Registry Access,block access to,1
+Credential Harvesting via Registry Access,via applocker or,1
+Credential Hijacking / Persistence,enforce least privilege,1
+Credential Leak via File & Memory,block access to,1
+Credential Leakage / UX Exploit,use hardware wallets,1
+Credential Leakage via Public Exposure,short lived tokens,1
+Credential Leakage via Public Exposure,use short lived,1
+Credential Phishing via Form Injection,sanitize all user,1
+Credential Phishing via Form Injection,user input use,1
+Credential Relay Attack,enforce smb signing,1
+Credential Replay,short lived tokens,1
+Credential Replay and Relay,enforce smb signing,1
+Credential Reuse Automation,implement rate limiting,1
+Credential Reuse Automation,multi factor authentication,1
+Credential Reuse or Default Access in Monitoring Tools,disable public access,1
+Credential Stuffing / Token Abuse,if not needed,1
+Credential Theft & Pivoting,role based access,1
+Credential Theft / Persistence,enforce least privilege,1
+Cronjob Abuse for Callback Shell,enforce least privilege,1
+Cross-Account Trust Exploitation,apply least privilege,1
+Cross-Modal Embedding Reconstruction,restrict access to,1
+Cross-Modal Transferability,use adversarial training,1
+Cross-Origin Data Leak / DOM Access,content security policy,1
+Cross-Protocol Attack via Deserialization,strict input validation,1
+Cross-Site Scripting (XSS),content security policy,8
+Cross-Site Scripting (XSS),security policy csp,6
+Cross-Site Scripting (XSS),use content security,2
+Cross-Site Scripting (XSS),input validation and,1
+Cross-Site Scripting (XSS),sanitize user input,1
+"Cross-modal (e.g., text+image) Adversarial Attack",use adversarial training,1
+Cross-modal Inversion from Shared Latents,apply differential privacy,1
+Crowdsourcing-Based Poisoning,human in the,1
+Crowdsourcing-Based Poisoning,in the loop,1
+Crypto Mining / Hidden Workloads,use only verified,1
+D-Bus Auto-start Service Abuse,restrict write access,1
+D-Bus Auto-start Service Abuse,write access to,1
+DDoS or Brute-Force on Public RPCs or APIs,implement rate limiting,1
+DHCP Misconfiguration DoS,enable dhcp snooping,1
+DHCP Offer Race Condition,enable dhcp snooping,1
+DHCP Pool Exhaustion,enable dhcp snooping,1
+DHCP Server Injection + MITM,enable dhcp snooping,1
+DHCP Starvation via MAC Spoofing,enable dhcp snooping,1
+DLL Injection,restrict write access,1
+DLL Injection,write access to,1
+DNS Cache Poisoning,educate users on,1
+DNS Recursive Resolver Abuse,block access to,1
+DNS Redirection to Malicious Server,public wi fi,1
+DNS Response Forgery,access to internal,1
+DNS Response Forgery,restrict access to,1
+DNS Spoofing via DHCP Injection,enable dhcp snooping,1
+DNS Spoofing via UDP MITM,use static arp,1
+DNS Tunneling,disable script execution,1
+DOM Manipulation & UI Spoofing,disable script execution,1
+DOM Manipulation & UI Spoofing,script execution in,1
+DOM-Based XSS,validate and sanitize,2
+Data Drift / Concept Drift Exploitation,human in the,1
+Data Drift / Concept Drift Exploitation,in the loop,1
+Data Drift / Concept Drift Exploitation,input validation and,1
+Data Drift / Concept Drift Exploitation,strict input validation,1
+Data Encoding in IP Header Fields,deep packet inspection,1
+Data Exfiltration,apply least privilege,1
+Data Exfiltration,limit access to,1
+Data Exfiltration / Command & Control (C2),apply least privilege,1
+Data Exfiltration / Cross-Account Access,enforce least privilege,1
+Data Exfiltration / Cross-Account Exploitation,enforce least privilege,1
+Data Exfiltration via Scheduled Serverless Function,anomaly detection on,1
+Data Exposure via Insecure Logging,restrict log access,1
+Data Exposure via Misconfiguration,apply least privilege,1
+Data Injection via ICMP Echo or Payload Abuse,deep packet inspection,1
+Data Interception,end to end,3
+Data Leakage via External Data Sources,sanitize and validate,1
+Data Leakage via Response/Storage,use short lived,1
+Data Manipulation / Injection,apply input validation,1
+Data Manipulation / Injection,input validation and,1
+Data Memorization Leakage,train with dp,1
+Data Poisoning,human in the,1
+Data Poisoning,in the loop,1
+Data Reconstruction from Gradients in FL/DP Models,noise to gradients,1
+Data Sabotage,role based access,1
+Data Supply Chain Attack,human in the,1
+Data Supply Chain Attack,in the loop,1
+Dataset Poisoning,use adversarial training,1
+Default Credentials Exploitation,disable public access,1
+Default Login on Identity/SSO/Reverse Proxy Dashboards,disable public access,1
+Default Login on Identity/SSO/Reverse Proxy Dashboards,to internal ips,1
+Defense Evasion,and alert on,1
+Defense Evasion,restrict log access,1
+Defense Evasion / Detection Bypass,enforce least privilege,1
+Defense Evasion / Detection Bypass,least privilege on,1
+Defense Evasion → Clearing Event Logs,via applocker or,1
+Defense Evasion → Code Signing Abuse,restrict access to,1
+Defense Evasion → Disabling Security Tools,restrict access to,1
+Defense Evasion → Disabling Security Tools,use behavior based,1
+Defense Evasion → Obfuscation,script block logging,1
+Delivery of Updates to Malware via HTTPS,use code signing,1
+Denial + Bypass of Guest Captive Portal,enable dhcp snooping,1
+Denial of Service (DoS),and alert on,1
+Denial of Service (DoS),implement rate limiting,1
+Denial of Service (DoS),rate limiting and,1
+Denial of Service (DoS),use reentrancy guards,1
+Denial of Service (DoS) via Uploads,implement rate limiting,1
+Denial of Service / Financial Abuse,and anomaly detection,1
+Denial of Service / Financial Abuse,anomaly detection on,1
+Denial of Service / Financial Abuse,implement rate limiting,1
+Denial of Service / Forced Reconnection,use strong encryption,1
+Denial of Service / Resource Abuse,implement rate limiting,1
+Denial of Service / Resource Abuse,rate limiting and,1
+Denial of Service / Resource Exhaustion,input validation and,1
+Denial of Service / Resource Exhaustion,strict input validation,1
+Denial-of-Service,implement rate limiting,1
+Deployment via Social Engineering + APK,educate users to,1
+Deserialization / Injection,validate and sanitize,1
+Deserialization for Lateral Movement,enforce least privilege,1
+Detection,and anomaly detection,1
+Detection Engineering → Cloud Detection Rule,rotate keys regularly,1
+Detection Engineering → Network Anomaly Logic,deep packet inspection,1
+Dev forgets to scrub OpenAI key → tool leaks it,store secrets in,1
+Device Access Exploit,do not allow,1
+Device Compromise / Data Exfiltration,use hardware wallets,1
+Dictionary-Style API Membership Inference,add dp noise,1
+Direct Input Reconstruction from Shared Gradients,add noise to,1
+Direct Input Reconstruction from Shared Gradients,noise to gradients,1
+Direct Object Reference Bypass,on server side,1
+Display-Based Timing,use constant time,1
+Distributed Front-Running Attacks,and anomaly detection,1
+DoS Amplification,rate limiting and,1
+DoS Attack,rate limiting and,1
+DoS via Malformed URL Scheme,and validate all,1
+DoS via Malformed URL Scheme,sanitize and validate,1
+Document Hash Collision and Digital Signature,sha 256 or,1
+Document Hash Collision and Digital Signature,use sha 256,1
+Document Malware,disable macros by,1
+Document-Based Social Engineering,disable macros by,1
+Document-Based Social Engineering,macros by default,1
+Domain Impersonation / Phishing,educate users to,1
+Domain Transfer via Shadow Modeling,restrict access to,1
+Double Spending via UTXO Dust Exploit,do not trust,1
+Dragonblood Attack,use constant time,2
+Dragonblood Attack,enforce server side,1
+Dynamic Executor Replacement,use code signing,1
+Dynamic MIA Adapting to Target Defenses,use differential privacy,1
+Dynamic Malware Analysis,and alert on,1
+ECB Mode Block Reassembly,aes gcm or,1
+ECC Scalar Multiplication Power Attack,use constant time,1
+ECC Side-Channel Key Recovery,use constant time,1
+ECU Reverse Engineering,secure boot and,1
+Email Enumeration via VRFY/EXPN,access to internal,1
+Email Enumeration via VRFY/EXPN,and anomaly detection,1
+Email Enumeration via VRFY/EXPN,deep packet inspection,1
+Email Enumeration via VRFY/EXPN,enforce strong passwords,1
+Email Enumeration via VRFY/EXPN,restrict access to,1
+Email Infrastructure Exposure via Default Configurations,disable public access,1
+Email Malware Delivery (Phishing Attachments),from unknown sources,1
+Embed malware inside Linux kernel's EFI stub,use secure boot,1
+Embedding Contrastive Leakage,restrict access to,1
+Embedding Fragment Inference Attack,restrict access to,1
+Embedding Hidden Jailbreak Commands via Overfit Tokens,anomaly detection on,1
+Embedding Inversion Attack,use differential privacy,1
+Embedding Inversion for Model Parameter Recovery,differential privacy in,1
+Embedding Inversion for Model Parameter Recovery,restrict access to,1
+Embedding Inversion for Model Parameter Recovery,use differential privacy,1
+Embedding Inversion with Internal Access,differential privacy in,1
+Embedding Inversion with Internal Access,use differential privacy,1
+Embedding Math-Based Feature Isolation,add noise to,1
+Embedding Math-Based Feature Isolation,restrict access to,1
+Embedding Similarity Membership Attack,use adversarial training,1
+Embedding Space Manipulation,use adversarial training,1
+Embedding Space Re-identification,add noise to,1
+Embedding Space Re-identification,apply differential privacy,1
+Encoded Command Execution via Empire,constrained language mode,1
+Encoded ID Tampering,on server side,1
+Encrypted Attachment Abuse,disable macros by,1
+Encrypted Attachment Abuse,macros by default,1
+Encrypted File Bypass,disable macros by,1
+Encrypted File Bypass,macros by default,1
+Encrypted SSH Tunnel for Remote Control,and anomaly detection,1
+Encrypted Traffic Sniffing + Offline Cryptanalysis,use strong encryption,1
+Endpoint (AV Evasion),script block logging,1
+Eval-based Obfuscation,content security policy,1
+Evasion Attack,use adversarial training,1
+Evasion via Adversarial Inputs from Shadows,use adversarial training,1
+Evasion via Changing URIs in HTTP/S Requests,use behavior based,1
+Evasion via Hash Matching,sha 256 or,1
+Evasion via Hash Matching,use behavior based,1
+Evasion via Hash Matching,use sha 256,1
+Evasion via Model Compression,use adversarial training,1
+Evidence Tracking,role based access,1
+Evil Twin + Captive Portal + Mobile Auto-Connect,open wi fi,1
+Evil Twin + Captive Portal Injection,do not allow,1
+Evil Twin + DNS Spoofing (Fake Wi-Fi + MITM),open wi fi,1
+Evil Twin + DNS Spoofing (Fake Wi-Fi + MITM),public wi fi,1
+Evil Twin + MITM + HTTPS Downgrade,disable auto connect,1
+Evil Twin + MITM + HTTPS Downgrade,open wi fi,1
+Excessive API Exposure via Introspection,limit access to,1
+Excessive Memory Usage Attack,input validation and,1
+Excessive Secret Scope,least privilege on,1
+Execution,via applocker or,1
+Execution + Defense Evasion,constrained language mode,1
+Execution Hijack via Hook Insertion,use code signing,1
+Exploit IP Headers Outside VPN Tunnel,deep packet inspection,1
+Exploit Intel SMM to run code at highest CPU level,write access to,1
+Exploit in Flash Loan Callback Function Logic,use reentrancy guards,1
+Exploiting Explainability Tools to Reveal Data,limit access to,1
+Exploiting Import Features to Plant Backdoors,restrict access to,1
+Exploiting Instance Metadata Service (IMDS),block access to,1
+Exploiting Timing Differences to Infer Private Data,use constant time,1
+Exploiting Vector Search Similarities,add noise to,1
+Exposed API Keys / Secrets in Repos,in ci cd,1
+Exposed API Keys in Repos / Code,store secrets in,1
+Exposed API Keys in Repos or Frontend Code,rotate keys regularly,1
+Exposed API Keys in Repos or Frontend Code,store secrets in,1
+External Data Poisoning,anomaly detection on,1
+Extreme Amplification DDoS via UDP-based Memcached,to internal ips,1
+FL Gradient Privacy Leak,use differential privacy,1
+Fairness Analysis Abuse,limit access to,1
+Fake AP + DNS Spoof + Forced APK Download,do not allow,1
+Fake AP + Network Spoof + DNS Injection,auto connect to,1
+Fake AP + Network Spoof + DNS Injection,disable auto connect,1
+Fake AP + Network Spoof + DNS Injection,open wi fi,1
+Fake AP + Network Spoof + DNS Injection,public wi fi,1
+Fake Login Page on Rogue AP,open wi fi,1
+Fake Login Page on Rogue AP,users not to,1
+Fake Session Timeout,on server side,1
+Faking Source IP to Bypass API Auth or Access Checks,from trusted sources,1
+Fan-Based Side-Channel Attack,use constant time,1
+Fault Injection,use secure boot,1
+Feature Collision,alert on suspicious,1
+Feature Importance-Based Membership Inference,access to internal,1
+Feature Importance-Based Membership Inference,add noise to,1
+Feedback Loop Manipulation,validate and sanitize,1
+Few-Shot Prompt Injection,from user input,1
+File Access Replay,to ip device,1
+File Download & Execution via Certutil,via applocker or,1
+File Hash Collision / AV Evasion,sha 256 or,1
+File Hash Collision / AV Evasion,use sha 256,1
+File Path Manipulation / LFI,sanitize user input,1
+File Sharing Abuse,train users to,1
+File Sharing Abuse,users to verify,1
+File Upload + Unsafe Script Execution,and alert on,1
+File-based fuzzing,input validation and,1
+Fileless Malware Execution,script block logging,1
+Filter Evasion using Packet Fragmentation,deep packet inspection,1
+Finalizer Abuse,and alert on,1
+Financial Exploit via Clipboard Monitoring,educate users to,1
+Firewall Bypass / Access Control Evasion,and alert on,1
+Firmware Downgrade,secure boot and,1
+Firmware Exploit,secure boot and,1
+Firmware Extraction & Analysis,disable debug ports,1
+Firmware Extraction & Analysis,secure boot and,1
+Firmware Extraction & Analysis,use secure boot,1
+Firmware/Config Hash Crack via Rainbow,use sha 256,1
+Flush+Reload via Shared Libraries,constant time crypto,1
+Flush+Reload via Shared Libraries,use constant time,1
+Forced Execution of Root-Owned Recovery Workflows,use secure boot,1
+Forged File with Matching SHA-1 Digest,sha 256 or,1
+Format String Bug,sanitize user input,1
+Frame-Based Phishing,frame options deny,1
+Frame-Based Phishing,use frame options,1
+Full HTTP Hijack and Redirection,open wi fi,1
+Function/Feature-Level Access Bypass,role based access,1
+Functionality Removal,use read only,1
+Fund Drain via Repeated Calls,checks effects interactions,1
+Fuzzer Configuration,input validation and,1
+Fuzzer Configuration,validate and sanitize,1
+Fuzzing,input validation and,2
+Fuzzing Execution,apply input validation,1
+GPS Spoofing,and multi source,3
+Generated Secrets That Appear Real,educate users to,1
+Geo-Targeted Prefix Hijacking,educate users on,1
+Git Pre-Commit Bypass,enforce server side,1
+GitHub Audit Logs Monitoring,and alert on,1
+Gradient Leakage via Federated Optimization,add noise to,1
+Gradient Leakage via Federated Optimization,noise to gradients,1
+Gradient Reconstruction in Split NN,add noise to,1
+Gradient Reconstruction in Split NN,noise to gradients,1
+Gradient Signal-Based Membership Detection,add dp noise,1
+Gradient Signal-Based Membership Detection,noise to gradients,1
+Gradient-Aware Adversarial Label Flip,use adversarial training,1
+Gradient-Based Image Inversion from Class Labels,train with dp,1
+Gradual Model Corruption via Retraining,anomaly detection on,1
+Graph Structure and Feature Reconstruction,apply differential privacy,1
+Guided Input Reconstruction using Known Members,add dp noise,1
+HMAC Secret Guessing via JWT Header Abuse,use long random,1
+HMAC Signature Validation Timing Attack,use constant time,1
+HMI Exploitation,short lived tokens,1
+HTML Smuggling,disable script execution,1
+HTML Smuggling,educate users on,1
+HTML Smuggling,script execution in,1
+HTML Smuggling,users not to,1
+HTTP Parameter Pollution (HPP),server side validation,1
+HTTP Request Smuggling / Injection,strict input validation,2
+HTTPS Downgrade & Credential Intercept,train users to,1
+HTTPS Downgrade & Credential Intercept,users to verify,1
+HTTPS Downgrade and Credential Theft,public wi fi,1
+Hallucinated Classification of Sensitive Content,do not allow,1
+Hardcoded Password in Template,store secrets in,1
+Hardware Debug Interface Access,disable debug ports,1
+Hardware Interface Exploitation,full disk encryption,4
+Hardware Interface Exploitation,disable debug ports,2
+Hardware Interface Exploitation,secure boot and,2
+Hardware Interface Exploitation,use read only,1
+Hardware Interface Exploitation,use secure boot,1
+Hardware Padding Oracle on RSA in Smart Cards,constant time crypto,1
+Hardware Padding Oracle on RSA in Smart Cards,implement constant time,1
+Hardware Padding Oracle on RSA in Smart Cards,use rsa oaep,1
+Hardware-Based Side Channel Attack (Acoustic Emission Leakage),use constant time,1
+Hardware-Based Side Channel Attack (Cache Timing Leakage),constant time crypto,1
+Hardware-Based Side Channel Attack (Cache Timing Leakage),use constant time,1
+Hardware-Based Side Channel Attack (Thermal Residue Leakage),multi factor authentication,1
+Hash Collision Attack in Blockchain,sha 256 or,1
+Hash Collision in Token Metadata or Art Reference,use sha 256,1
+Hash Collision to Forge File Integrity,use sha 256,1
+Hash Function Collision,sha 256 or,1
+Hash Preimage with File Forgery,use sha 256,1
+Header Injection to Alter Authentication or Behavior,and validate all,1
+Header Injection to Alter Authentication or Behavior,sanitize and validate,1
+Heap Spray with Memory Page Control,restrict access to,1
+Hidden Field + Overlay,train users to,1
+Hidden Frame + CSS Overlay,content security policy,1
+Hidden Iframe Clickjacking,content security policy,1
+Hidden Iframe Clickjacking,frame options deny,1
+Hide credential-stealing payloads in ADS for stealth exfiltration,via applocker or,1
+Hide payload using alternate extension in ADS,if not needed,1
+Host Binary Hijack via Shared Library Injection,use read only,1
+Host Filesystem Tampering from Inside Container,use read only,1
+HostPath Exploitation,use read only,1
+Hybrid Adaptive and Chosen Ciphertext Oracle Attack,use rsa oaep,1
+Hybrid Android-Targeted Attack,educate users not,1
+Hybrid Android-Targeted Attack,users not to,1
+Hyperparameter-Aware Gradient Inversion,add dp noise,1
+ID-based Access Manipulation,never trust client,1
+IDOR (Insecure Direct Object Reference),on server side,1
+IMAP/POP Credential Interception,disable auto connect,1
+IMAP/POP Credential Interception,educate users on,1
+IMAP/POP Credential Interception,open wi fi,1
+IMAP/POP Credential Interception,public wi fi,1
+IMAP/POP Credential Interception,train users to,1
+IMSI Catcher / Rogue Cell,end to end,1
+IP Packet Fragmentation to Bypass IDS/IPS,deep packet inspection,1
+IP Spoofing,deep packet inspection,1
+IP-based Privilege Escalation,multi factor authentication,1
+IPv6 MITM via Fake RA + DNS Hijack,if not needed,1
+Identify Open Ports and Allowed Protocols,enforce least privilege,1
+Identity Federation Abuse / Privilege Escalation,enforce least privilege,1
+Impact → Business Process Disruption,role based access,1
+Impact → Data Wiping or Corruption,restrict write access,1
+Impact → Data Wiping or Corruption,write access to,1
+Impact → Denial-of-Service (Internal),dynamic arp inspection,1
+Impact → Denial-of-Service (Internal),enable dhcp snooping,1
+Implanted Hardware,from trusted sources,1
+Improper Session Logout / Token Reuse → Token Reuse on Other Device,use short lived,1
+In-Memory Injection via ctypes / FFI,use code signing,1
+Indirect or Noisy Oracle Responses,use rsa oaep,1
+Inferring Training Data Membership,use differential privacy,1
+Info Disclosure via Misconfig,access to internal,1
+Info Disclosure via Misconfig,to internal ips,1
+Info Stealer,from unknown sources,1
+Information Disclosure,rate limiting and,1
+Information Disclosure,role based access,1
+Information Disclosure / Recon,if not needed,1
+Information Disclosure via URL,to ip device,1
+Information Disclosure via URL,use short lived,1
+Information Leak,use differential privacy,1
+Information Leakage,apply differential privacy,1
+Infrastructure as Code Abuse,enforce least privilege,1
+Infrastructure as Code Abuse,least privilege on,1
+Initial Access,use short lived,1
+Initial Access via Weaponized Documents,by default use,1
+Initial Access via Weaponized Documents,disable macros by,1
+Initial Access via Weaponized Documents,macros by default,1
+Inject %s into SSH username,sanitize user input,1
+Inject Root Shell via Uncommitted Journal Write,write access to,1
+Inject rootkit into Master Boot Record (MBR),full disk encryption,1
+Injection / Code Execution,strict input validation,1
+Injection and Remote Code Execution via API Gateways,validate and sanitize,1
+Injection of Malicious or Fake Data into Vector DB,and validate all,1
+Injection of Malicious or Fake Data into Vector DB,sanitize and validate,1
+Injection via SQL UNION Operator,sanitize all user,1
+Injection via SQL UNION Operator,use parameterized queries,1
+Injection via SQL UNION Operator,validate and sanitize,1
+Inline JS Execution via Attribute Injection,from user input,1
+Inline JS Execution via Attribute Injection,user input use,1
+Input Escaping,by default use,1
+Input Manipulation / Business Logic Bypass / Client-side Trust Exploit,never trust client,1
+Input Reconstruction from Attributions,limit access to,1
+Input Reconstruction from Confidence Scores,differential privacy in,1
+Input Reconstruction from Confidence Scores,use differential privacy,1
+Input Reconstruction from Gradient Information,add noise to,1
+Input Reconstruction from Gradient Information,noise to gradients,1
+Input Sanitization,sanitize and validate,1
+Input Spoofing,server side validation,1
+Input Spoofing,use server side,1
+Input Validation Bypass / RCE Prep,never trust client,1
+Insecure Authentication – Logic Bypass,on server side,1
+Insecure Authentication – Token Mismanagement,to ip device,1
+Insecure Communication > Rogue Wi-Fi Access Point,disable auto connect,1
+Insecure Communication > Wireless MITM,disable auto connect,1
+Insecure Deserialization → RCE,validate and sanitize,1
+Insecure Logging of Explanation Outputs,limit access to,1
+Insecure Output Disclosure,restrict access to,1
+Insecure Wallet Data Protection,enforce strong passwords,1
+Insider/Cloud Log Exposure,enforce least privilege,1
+Insider/Cloud Log Exposure,restrict log access,1
+Installer Utility Exploitation,via applocker or,1
+Insufficient Scope Enforcement,on server side,1
+Integer Overflow,and validate all,1
+Integer Overflow,sanitize and validate,1
+Integer Overflow / Logic Bypass,before external calls,1
+Integrity Verification,secure boot and,1
+Intentional Label Flip to Misguide Model Behavior,and anomaly detection,1
+Intentional Label Flip to Misguide Model Behavior,human in the,1
+Intentional Label Flip to Misguide Model Behavior,in the loop,1
+Interface Tampering,disable debug ports,1
+Intermediate Layer Mimicry,add noise to,1
+Internal Abuse of Shared Memory or Logs,role based access,1
+Internal Agent Recon (Self-Inspection),block access to,1
+Internal Email Exploit,macros by default,1
+Internal Feature Visualization from CNN Layers,train with dp,1
+Internal Recon,apply least privilege,1
+Internal SSRF via Cloud Subdomain Collision,access to internal,1
+Internal SSRF via Cloud Subdomain Collision,block access to,1
+Inversion via Pretrained Model Layers,apply differential privacy,1
+JWT Secret Brute Force via Known Payload,use long random,1
+JWT Tampering & Signature Bypass,and alert on,1
+JWT Tampering & Signature Bypass,do not allow,1
+Jamming,and anomaly detection,1
+JavaScript-Based API Calls,enforce server side,1
+JavaScript-Based Tab Replacement,train users to,2
+JavaScript-Based Tab Replacement,educate users on,1
+JavaScript-Based Tab Replacement,users to verify,1
+K8s Job Injection,alert on suspicious,1
+KPA via Network Payload Injection,aes gcm or,1
+KPA via Static Key in Firmware,rotate keys regularly,1
+Kernel Info Leak via Diagnostics,restrict access to,1
+Key Stream Bias Attack,aes gcm or,1
+Key Theft & Unauthorized Bridge Approval,rotate keys regularly,1
+Keylogger Installation,enforce strong passwords,1
+Keylogger via Logon Trigger,educate users on,1
+Keyspace Exhaustion / Symmetric Key Cracking,use strong encryption,1
+Known Block Insertion,aes gcm or,1
+LLMNR/NBT-NS Spoofing for Credential Capture,enforce smb signing,1
+Label Flipping (Data Poisoning),restrict write access,1
+Label Flipping (Data Poisoning),write access to,1
+Latent Backdoor Activation via Repeated Trigger Phrase,use adversarial training,1
+Lateral Movement,constrained language mode,2
+Lateral Movement,enforce smb signing,2
+Lateral Movement,apply least privilege,1
+Lateral Movement / Privilege Escalation,enforce least privilege,1
+Lateral Movement Tracing,enforce smb signing,1
+Lateral Movement → Remote SYSTEM Shell via SMB Admin Shares,via applocker or,1
+Layer 2 MITM + IP Impersonation,arp inspection dai,1
+Layer 2 MITM + IP Impersonation,dynamic arp inspection,1
+Layer 2 MITM + IP Impersonation,static arp entries,1
+Layer 2 MITM + IP Impersonation,use static arp,1
+Layer 2 Switch Port Attack,dynamic arp inspection,1
+Legacy Software Exploitation,use code signing,1
+Legitimate Feature Abuse / Remote Code Execution,script block logging,1
+Link-based Drive-by Exploit,educate users on,2
+Link-based Drive-by Exploit,educate users to,1
+Link-based Drive-by Exploit,users to verify,1
+LoRa Eavesdropping,end to end,1
+LoRa/LPWAN Sniffing,end to end,1
+Local File Inclusion (LFI) via File Picker + WebView,from user input,1
+Local File Inclusion + Script Injection via WebView,from user input,1
+Local File Inclusion via WebView,sanitize and validate,1
+Local Network Spoofing / ZeroConf Exploitation,educate users not,1
+Local Network Spoofing / ZeroConf Exploitation,users not to,1
+Local Privilege Escalation,do not allow,1
+Local Privilege Escalation,if not needed,1
+Local Privilege Escalation (File Permission Abuse),restrict write access,1
+Local Privilege Escalation (LPE),if not needed,1
+Local Privilege Escalation (LPE),restrict access to,1
+Local Privilege Escalation (Offline Bypass),full disk encryption,1
+Local Privilege Escalation / Defense Evasion via LOLBin,restrict access to,1
+Local Privilege Escalation / Persistence,write access to,1
+Local Privilege Escalation via Boot,full disk encryption,1
+Local Privilege Escalation via File Replace,full disk encryption,2
+Local Privilege Escalation via File Replacement,full disk encryption,1
+Local Privilege Escalation via UAC Bypass,and alert on,1
+Lock user out or maintain persistence via EFI variables,secure boot and,1
+Lock user out or maintain persistence via EFI variables,use secure boot,1
+Log Analysis → SIEM Monitoring,script block logging,1
+Log Exposure,restrict log access,1
+Log Flooding via Noisy Syscalls,rate limiting and,1
+Log-Based Secret Exposure,restrict log access,1
+Logic Flaw / Authorization,server side validation,1
+Logic Flaw / Gift Abuse,rate limiting and,1
+Loss Value Comparison for Membership Inference,limit access to,1
+MIA Enhanced by Adversarial Robustness,use differential privacy,1
+MITM (Man-in-the-Middle) + Sniffing/DoS,arp inspection dai,1
+MITM (Man-in-the-Middle) + Sniffing/DoS,dynamic arp inspection,1
+MITM + DNS Poisoning,use static arp,1
+MITM + DNS Spoofing (via ARP poisoning),arp inspection dai,1
+MITM + DNS Spoofing (via ARP poisoning),dynamic arp inspection,1
+MITM + Downgrade + Traffic Manipulation,educate users to,1
+MITM + Downgrade + Traffic Manipulation,open wi fi,1
+MITM + Phishing (Fake Login Page),educate users to,1
+MITM + Rogue AP + Captive Portal Phishing,disable auto connect,1
+MITM + SSL Downgrade,educate users to,1
+MITM Attack on Mobile Wallet Connections,public wi fi,1
+MITM by Spoofing Gateway IP,static arp entries,1
+MITM-Based CCA on Encrypted Streams,end to end,1
+Macro Malware in Email Attachments,disable macros by,1
+Macro Malware in Email Attachments,macros by default,1
+Macro Malware in Email Attachments,train users to,1
+Macro Malware in Email Attachments,users not to,1
+Macro Payload in Office Document,by default use,1
+Macro Payload in Office Document,disable macros by,1
+Macro Payload in Office Document,macros by default,1
+Macro-based Code Execution (Trojan Office),disable macros by,1
+Macro-based Code Execution (Trojan Office),macros by default,1
+Malicious App Installation via Trojanized File,from unknown sources,1
+Malicious DLL Execution,via applocker or,1
+Malicious Embedded Images (Base64 Payloads),script execution in,3
+Malicious Embedded Images (Base64 Payloads),disable script execution,2
+Malicious Embedded Images (Base64 Payloads),educate users not,1
+Malicious Embedded Images (Base64 Payloads),users not to,1
+Malicious Entrypoint in Build,use only verified,1
+Malicious Extension,educate users on,2
+Malicious Extension,script execution in,2
+Malicious Extension,use hardware wallets,1
+Malicious Extension Abuse / Session Hijack,use hardware wallets,1
+Malicious Firmware Updates,end to end,1
+Malicious Libraries,use only verified,1
+Malicious Library,disable script execution,1
+Malicious Library,restrict access to,1
+Malicious Library,script execution in,1
+Malicious Library Injection,in ci cd,1
+Malicious Macro,and alert on,1
+Malicious Memory Manipulation,apply input validation,2
+Malicious Peripheral Attack,and alert on,1
+Malicious Peripheral Attack,do not allow,1
+Malicious Peripheral Attack,use read only,1
+Malware / Address Replacement,use hardware wallets,1
+Malware / Credential Theft,from trusted sources,1
+Malware / Credential Theft,use hardware wallets,1
+Malware Delivery via Phishing,train users to,1
+Man-in-the-Browser (MITB),and anomaly detection,2
+Man-in-the-Browser (MITB),use server side,2
+Man-in-the-Browser (MITB),educate users on,1
+Man-in-the-Middle (MITM) Attack,arp inspection dai,1
+Man-in-the-Middle (MITM) Attack,dynamic arp inspection,1
+Man-in-the-Middle (MITM) Attack,static arp entries,1
+Man-in-the-Middle + Proxy Hijack,users not to,1
+Man-in-the-Middle via ARP,arp inspection dai,1
+Man-in-the-Middle via ARP,dynamic arp inspection,1
+Man-in-the-Middle via ARP,static arp entries,1
+Man-in-the-Middle via ARP,use static arp,1
+Man-in-the-Middle via DHCP + ARP,dynamic arp inspection,1
+Man-in-the-Middle via DHCP + ARP,enable dhcp snooping,1
+Man-in-the-Middle via DHCP + ARP,static arp entries,1
+Man-in-the-Middle via DHCP + ARP,use static arp,1
+Media Codec Exploit via Decoder Bugs,apply input validation,1
+Media File Exploit,strict input validation,1
+Membership Attack via AutoML Model Artifacts,limit access to,1
+Membership Inference in Contrastive Learning Models,add noise to,1
+Membership Inference in Fine-Tuned Models,differential privacy in,1
+Membership Inference in Fine-Tuned Models,use differential privacy,1
+Membership Inference on Generative Models,train with dp,1
+Membership Inference on Graph-Structured Data,differential privacy in,1
+Membership Inference on Specific Data Subsets,limit access to,1
+Membership Inference through Model Confidence,apply differential privacy,1
+Membership Inference via Medical Image Reconstruction,train with dp,1
+Membership via Surrogate Model Ensemble,add noise to,1
+Memorization of Proprietary Content via Fine-tuning,use differential privacy,1
+Memory Dump,full disk encryption,1
+Memory Extraction from Trusted Execution Environments,if not needed,1
+Message Replay,restrict log access,1
+Metadata Injection / Storage Exploitation,sanitize and validate,1
+Metadata-Based Exposure,store secrets in,1
+Microarchitectural Exploit,use constant time,1
+Minimal Perturbation Attack,use adversarial training,1
+Mining retrieval logs for sensitive info,restrict log access,1
+Misconfiguration / Exposure via Network Defaults,enforce least privilege,1
+Misconfiguration → Credential Disclosure,in ci cd,1
+Misconfigured CI Variables,in ci cd,1
+Misconfigured CORS,do not allow,1
+Misconfigured CORS Headers,do not allow,1
+Misconfigured Database Exposure + Metadata Service Exploitation,restrict access to,1
+Misconfigured Database Exposure + Metadata Service Exploitation,store secrets in,1
+Misconfigured S3 / Blob Storage Attacks,by default use,1
+Misconfigured S3 / Blob Storage Attacks,content security policy,1
+Misconfigured S3 / Blob Storage Attacks,role based access,1
+Misconfigured S3 / Blob Storage Attacks,rotate keys regularly,1
+Misconfigured S3 / Blob Storage Attacks,security policy csp,1
+"Misinterpreted Data Between Languages (Rust ↔ Solidity, Python ↔ WASM)",end to end,1
+Missing Authentication,role based access,1
+Misuse of Legitimate Tools,educate users on,1
+Misuse of Legitimate Tools,short lived tokens,1
+Misuse of Legitimate Tools,use short lived,1
+Mobile App Backend Leak + Cloud Token Abuse,apply least privilege,1
+Mobile Phishing (Fake Apps / URLs),educate users to,1
+Mobile Phishing (Fake Apps / URLs),from unknown sources,1
+Mobile Power Side-Channel,limit access to,1
+Mobile Ransomware,educate users to,1
+Mobile Ransomware,from unknown sources,1
+ModExp Timing Analysis,use constant time,1
+Model Evasion via Adversarial Perturbation,use adversarial training,1
+Model Evasion via Universal Perturbations,use adversarial training,1
+Model Explanation Exploit,add noise to,1
+Model Inference via Power/Timing,add noise to,1
+Model Inference via Power/Timing,apply differential privacy,1
+Model Inversion,apply differential privacy,1
+Model Inversion Attack,use differential privacy,1
+Model Leak,apply differential privacy,1
+Model Stealing,differential privacy in,1
+Model Stealing,limit access to,1
+Model Stealing,use differential privacy,1
+Model Update Exploitation via Gradient Inversion,add dp noise,1
+Model Update Exploitation via Gradient Inversion,noise to gradients,1
+Modify /proc/self/cgroup entries to override limits,use read only,1
+Modify bootloader to hijack OS kernel loading,full disk encryption,1
+Modify setuid binary to gain root shell,use read only,1
+Modify systemd .service files to run attacker scripts,use read only,1
+Mount Overlay Evasion,use read only,1
+Multi-Agent Malware Transformation Chain,and anomaly detection,1
+Multi-stage SSRF using internal microservice behavior,do not trust,1
+Multi-stage SSRF using internal microservice behavior,validate and sanitize,1
+"NVIDIA Driver, ioctl script",input validation and,1
+Nested Callback Exploits in Bridge Withdraw Logic,update state before,1
+Netmask/Segment Manipulation,enable dhcp snooping,1
+Network (C2 Channel),and alert on,1
+Network Attacks on Ground Infrastructure,end to end,1
+Network Impersonation,disable auto connect,1
+Network Interception / Credential Theft,auto connect to,1
+Network Interception / Credential Theft,disable auto connect,1
+Network Interception / Credential Theft,public wi fi,1
+Network Reconnaissance,restrict access to,1
+Network Reconnaissance,use strong encryption,1
+Network Reconnaissance via SNMP,if not needed,1
+Network Reconnaissance via SNMP,to internal ips,1
+Network-Based Tab Replacement,public wi fi,1
+No Auth Internal Access via SSRF,access to internal,1
+No Root/Jailbreak Detection → Logic Modification via Objection,on server side,1
+"No Root/Jailbreak Detection → Modify Stored App Data (Tokens, Config Files)",server side validation,1
+NoSQL Injection,strict input validation,1
+OS Command Injection via Web Input,sanitize user input,1
+OS Command Injection via Web Input,user input use,1
+Obfuscated Execution,script block logging,1
+Obfuscation for Upload Execution,on server side,1
+Obfuscation of Payloads,educate users on,1
+Obfuscation of Payloads,restrict access to,1
+Object Injection + Logic Bypass,validate and sanitize,1
+Office Macro,by default use,1
+Office Macro,disable macros by,1
+Office Macro,macros by default,1
+Offline Evasion,use server side,1
+Offline WPA/WPA2 Password Cracking,rotate keys regularly,1
+Offline WPA/WPA2 Password Cracking,use long random,1
+On-Device Memory Extraction,use hardware wallets,1
+On-path Spoofed Identity in Flat Network,dynamic arp inspection,1
+Online Password Guessing,enforce strong passwords,1
+Open Wi-Fi Phishing / Data Intercept,auto connect to,1
+Open Wi-Fi Phishing / Data Intercept,disable auto connect,1
+Open Wi-Fi Phishing / Data Intercept,open wi fi,1
+Oracle Attack on IoT Devices using RSA PKCS#1 v1.5,use rsa oaep,1
+Oracle Decryption via Encrypted API Calls,aes gcm or,1
+Oracle Decryption via Encrypted API Calls,use constant time,1
+Oracle on RSA Encrypted Keys in XML Signatures,use rsa oaep,1
+Oracle via MAC-then-Encrypt Validation Timing,aes gcm or,1
+Output Leak via Cache,use constant time,1
+Output-based Execution in JS/CSV Context,use read only,1
+Overbroad Tool Permissions (Shell/File/Email/Webhook),by default use,1
+Overlay + Session Hijack,to ip device,1
+OverlayFS Escape,use read only,1
+OverlayFS/UnionFS trick,use read only,1
+Packet Injection with MITM via ARP Spoofing,arp inspection dai,1
+Packet Injection with MITM via ARP Spoofing,dynamic arp inspection,1
+Padding Oracle + Side-Channel Hybrid Attack,implement constant time,1
+Padding Oracle Exploit on RSA PKCS#1 v1.5,implement constant time,1
+Padding Oracle via Detailed Error Leakage,use rsa oaep,1
+Partial or Noisy Gradient Reconstruction,use differential privacy,1
+Passive Information Gathering,use strong encryption,1
+Passive Location Tracking Without GPS,from unknown sources,1
+Passive MITM via ARP Replies,arp inspection dai,1
+Passive MITM via ARP Replies,dynamic arp inspection,1
+Passive MITM via ARP Replies,static arp entries,1
+Passive MITM via ARP Replies,use static arp,1
+Passive Network Monitoring (Sniffing),public wi fi,1
+Passive Network Sniffing (MITM-ready),short lived tokens,1
+Passive Network Sniffing (MITM-ready),use short lived,1
+Passive Network Sniffing / Hijack,multi factor authentication,1
+Passive Sniffing + Packet Capture,disable auto connect,1
+Passive Sniffing + Packet Capture,open wi fi,1
+Passive Traffic Capture,use strong encryption,1
+Passive Traffic Sniffing / Token Theft,short lived tokens,1
+Password Cracking on Encrypted ZIP/RAR/7z Archives,use long random,1
+Path Hijacking via Intermediate Executable,write access to,1
+Path Traversal,from user input,1
+Path Traversal,sanitize and validate,1
+Path Traversal + Sensitive File Access,from user input,1
+Payload Obfuscation,use behavior based,1
+Persistence / Backdoor,and alert on,1
+Persistence / Backdoor,enforce least privilege,1
+Persistence / Defense Evasion,enforce least privilege,2
+Persistence / Defense Evasion,least privilege on,1
+Persistence / Evasion,apply least privilege,1
+Persistence / Local Privilege Escalation,apply least privilege,1
+Persistence / Local Privilege Escalation,least privilege on,1
+Persistence / Malware Delivery,enforce least privilege,1
+Persistence / Malware Delivery,least privilege on,1
+Persistence / Privilege Abuse via Cron,alert on suspicious,1
+Persistence / Resource Exhaustion,anomaly detection on,1
+Persistence / Resource Exhaustion,apply least privilege,1
+Persistence / Social Engineering,educate users not,1
+Persistence / Social Engineering,users not to,1
+Persistence Recon,restrict write access,1
+Persistence Recon,write access to,1
+Persistence through script replacement,disable script execution,1
+Persistence via Registry,write access to,1
+Persistence → Malicious Browser Extensions,restrict write access,1
+Persistent Access / Backdoor Injection,use only verified,1
+Phishing / Chatbot Impersonation,use only verified,1
+Phishing / Credential Theft,educate users on,1
+Phishing / Credential Theft,use hardware wallets,1
+Phishing / Social Engineering,enforce least privilege,1
+Phishing / Social Engineering,least privilege on,1
+Phishing / Social Engineering,use hardware wallets,1
+Phishing over Fake AP,train users to,1
+Phishing via Backup / Export Prompts,use hardware wallets,1
+Phishing via OTP Hijack Interface,educate users not,1
+Phishing via OTP Hijack Interface,users not to,1
+Physical Access,secure boot and,1
+Physical Delivery of Phishing Site,educate users not,1
+Physical Delivery of Phishing Site,users not to,1
+Physical Theft & Forensic Dumping,disable debug ports,3
+Physical Theft & Forensic Dumping,full disk encryption,1
+Physical Theft & Forensic Dumping,use code signing,1
+Physical-Phishing Hybrid via QR Encoding,sanitize all user,1
+Pipeline Trojan via Training Automation,apply input validation,1
+Plaintext Key Exposure on Filesystem,full disk encryption,1
+Point startup registry key or folder shortcut to ADS,write access to,1
+Poisoned Source Policy,use only verified,1
+Poisoning AI Output via Manipulated User Feedback Loops,human in the,1
+Poisoning AI Output via Manipulated User Feedback Loops,in the loop,1
+Poisoning via Pseudo-Label Generation,human in the,1
+Poisoning via Pseudo-Label Generation,in the loop,1
+Polymorphic Malware,full disk encryption,1
+Polymorphic Malware,secure boot and,1
+Polymorphic Malware,use secure boot,1
+Post-Compromise Lateral Movement,short lived tokens,1
+Post-Compromise Lateral Movement,to ip device,1
+Power Side-Channel,implement constant time,1
+Power Side-Channel Analysis,use constant time,1
+Power Side-Channel Template Modeling,use constant time,1
+Pre-Commit Hooks for IaC,and alert on,1
+Precision Leakage due to Small Batch Size,add noise to,1
+Precision Leakage due to Small Batch Size,noise to gradients,1
+Predict OAuth Payload and Tokens,use long random,1
+Predictable Firmware Contents Aid Key Recovery,aes gcm or,1
+Preimage Cryptanalysis,sha 256 or,1
+Preinstall Script Exploitation,disable script execution,1
+Premature Contract Destruction,limit access to,1
+Pretrained Model Backdoor Injection,from trusted sources,1
+Preview-Based Phishing,alert on suspicious,1
+Privacy Attack,train with dp,1
+Privacy Attack / Data Exposure,apply differential privacy,1
+Privacy Breach via Training Membership,add noise to,1
+Private Key Reuse Across Chains,educate users not,1
+Private Key Reuse Across Chains,users not to,1
+Privilege Abuse,role based access,1
+Privilege Escalation,apply least privilege,1
+Privilege Escalation,enforce least privilege,1
+Privilege Escalation,enforce server side,1
+Privilege Escalation,enforce strong passwords,1
+Privilege Escalation,from user input,1
+Privilege Escalation (Horizontal),enforce server side,1
+Privilege Escalation (Vertical),and alert on,1
+Privilege Escalation (Vertical),never trust client,1
+Privilege Escalation (Vertical),role based access,1
+Privilege Escalation / Automation Abuse,apply least privilege,1
+Privilege Escalation / Execution,enforce least privilege,1
+Privilege Escalation / Execution,least privilege on,1
+Privilege Escalation / Full Account Control,apply least privilege,1
+Privilege Escalation / Lateral Movement,enforce least privilege,2
+Privilege Escalation / Lateral Movement,least privilege on,1
+Privilege Escalation / Persistence,if not needed,1
+Privilege Escalation / Persistence,use code signing,1
+Privilege Escalation / Policy Evasion,enforce least privilege,1
+Privilege Escalation / Role Manipulation,never trust client,1
+Privilege Escalation / Role Manipulation,role based access,1
+Privilege Escalation / Trust Misconfiguration,enforce least privilege,1
+Privilege Escalation via API,least privilege on,1
+Privilege Escalation via API,rotate keys regularly,1
+Privilege Escalation via Accessibility Abuse,educate users on,1
+Privilege Escalation via Cookie Edit,never trust client,1
+Privilege Escalation via Deserialization + API Abuse,enforce least privilege,1
+Privilege Escalation via Extension APIs,restrict access to,1
+Privilege Escalation via New Launch Daemon,restrict write access,1
+Privilege Escalation via New Launch Daemon,write access to,1
+Privilege Escalation via Over-Permissive IAM,apply least privilege,1
+Privilege Escalation via Preferences GUI,restrict write access,1
+Privilege Escalation via Preferences GUI,write access to,1
+Privilege Escalation via Task COM Hijack,script block logging,1
+Privilege Escalation via Token Spoofing,via applocker or,1
+Privilege Escalation → Bypassing UAC,write access to,1
+Privilege Escalation → Kernel Exploits,apply least privilege,1
+Privilege Misuse,enforce least privilege,1
+Process Relationship,alert on suspicious,1
+Process Relationship,disable macros by,1
+Process Relationship,macros by default,1
+Promo Abuse,enforce server side,1
+Prompt Hijack for Fixed Output Injection,from user input,1
+Prompt Hijacking to Override Assistant Behavior,sanitize user input,1
+Prompt Injection,from trusted sources,1
+Prompt Injection during Label Construction,human in the,1
+Prompt Injection during Label Construction,in the loop,1
+Prompt Injection via System/Meta Prompts,from user input,1
+Prompt Injection via System/Meta Prompts,user input use,1
+Prompt Injection via User Comments or FAQ Fields,sanitize user input,1
+"Prompt Leak via Logs, Error, or Crash",validate and sanitize,1
+Prompt Poisoning,apply input validation,1
+Prompt Poisoning,restrict write access,1
+Prompt Poisoning,write access to,1
+Prompt Reconstruction,restrict access to,1
+Prompt Recovery,apply differential privacy,1
+Prompt Tuning Vector-Based Inference,restrict access to,1
+Prompt-Based Credential Extraction,train users to,1
+Prompt-based Tool URL Manipulation,and validate all,1
+Prompt-based Tool URL Manipulation,sanitize and validate,1
+Protocol Abuse,implement rate limiting,1
+Protocol Abuse,rate limiting and,1
+Protocol Desync,anomaly detection on,1
+Protocol Misuse,deep packet inspection,1
+Prototype-based Input Generation,apply differential privacy,1
+Prototype-based Input Generation,use adversarial training,1
+Proximity Exploit via BLE Beacon Scripts,educate users on,1
+Proxy Vulnerability Testing,use adversarial training,1
+Public API Exposure + Cloud Metadata Theft via SSRF,apply least privilege,1
+Public Paste Leak,block access to,1
+Public Workflow Artifact Exposure,short lived tokens,1
+Public Workflow Artifact Exposure,use short lived,1
+QR Code Phishing,from trusted sources,1
+QR Code Social Engineering + Rogue AP,disable auto connect,1
+QR Code Social Engineering + Rogue AP,train users to,1
+QR Code Social Engineering + Rogue AP,users to verify,1
+Quantum Trojan Horse via Debug Channel,disable debug ports,1
+Quantum-Aided Classical Side-Channel Analysis,implement constant time,1
+Query Transfer Attack,use adversarial training,1
+Query-Efficient Model Stealing with Data Selection Strategies,use differential privacy,1
+RBAC Misuse,apply least privilege,1
+RBAC Misuse,enforce least privilege,1
+RFID Tag Cloning,role based access,1
+RPC Endpoint Accessible by All IPs and Origins,restrict access to,1
+RSA DPA / Ladder Leak,use constant time,1
+RSA Modular Exponentiation Timing Leak,use constant time,1
+RSA Power Side-Channel Attack,use constant time,1
+Race Condition / DoS,implement rate limiting,1
+Race Condition / Information Leak,enforce least privilege,1
+Race Condition Exploit in JavaScript Async,enforce server side,1
+Rainbow Crack for SHA-1 Password Hashes,sha 256 or,1
+Rank-Based Membership Inference,add noise to,1
+Ransomware Simulation,train users to,1
+Ransomware Simulation,users to verify,1
+Rare Unique Data is Memorized Fully by Overfit Model,use differential privacy,1
+Real-Time Attack,use adversarial training,1
+Real-time Data Manipulation,anomaly detection on,1
+Rebinding via Hijacked DNS + Web Exploit,block access to,1
+Reconnaissance,and alert on,2
+Reconnaissance,alert on suspicious,1
+Reconnaissance,enforce least privilege,1
+Reconnaissance / Browser Scan,access to internal,1
+Reconnaissance / Browser Scan,content security policy,1
+Reconnaissance / Browser Scan,security policy csp,1
+Reconnaissance / Info Leak,if not needed,1
+Reconnaissance via Filesystem,restrict access to,1
+Reconstructing Images from Identity Labels,train with dp,1
+Reconstruction from Embedding Vector Optimization,add dp noise,1
+Recovery Scam via Fake Apps/Websites,educate users to,1
+Recursive Locking via Reentrancy,update state before,1
+Redirection Abuse to Hijack Auth Flow,short lived tokens,1
+Redirection Abuse to Hijack Auth Flow,use short lived,1
+Reentrancy Attack,update state before,11
+Reentrancy Attack,use reentrancy guards,9
+Reentrancy Attack,checks effects interactions,8
+Reentrancy Attack,before external calls,8
+Reentrant Execution Influenced by Time Logic,checks effects interactions,1
+Reentrant Mutation of Shared State Memory,before external calls,1
+Reflected Cross-Site Scripting (XSS),sanitize all user,1
+Reflected XSS,input validation and,1
+Reflected XSS,strict input validation,1
+Reflected XSS via HTTP Host header,content security policy,1
+Reflected XSS via HTTP Host header,security policy csp,1
+Reflected XSS via HTTP Host header,use content security,1
+Reflected/XSS + HTML Injection,content security policy,1
+Reflected/XSS + HTML Injection,validate and sanitize,1
+Reflection Abuse,validate and sanitize,1
+Remote Code Execution (RCE),enforce least privilege,1
+Remote Code Execution (RCE),on server side,1
+Remote Code Execution (RCE),sanitize all user,1
+Remote Code Execution (RCE),server side validation,1
+Remote Code Execution (RCE),use parameterized queries,1
+Remote Code Execution (RCE) in RDP,if not needed,1
+Remote Code Execution (RCE) via Plugin Injection,content security policy,1
+Remote Code Execution (SMB Valid Login),if not needed,1
+Remote Code Execution / Default Web Panel Access,block access to,1
+Remote Code Execution / Deserialization,apply input validation,1
+Remote Code Execution / Deserialization,validate and sanitize,1
+Remote Code Execution / Recon,from user input,1
+Remote Code Execution / Recon,user input use,1
+Remote Code Execution / Shell Access,constrained language mode,1
+Remote Code Execution / Shell Access,via applocker or,1
+Remote Code Execution over WinRM (PowerShell),constrained language mode,1
+Remote Code Execution via File Upload,do not allow,1
+Remote Code Execution via Parsers,do not allow,1
+Remote Code Execution via SSI,if not needed,1
+Remote Code Execution via Upload,disable script execution,1
+Remote Code Execution via Upload,script execution in,1
+Remote Command Execution,sanitize and validate,1
+Remote Command Execution (RCE),if not needed,1
+Remote Command Execution / Credential Abuse,enforce strong passwords,1
+Remote Command Execution via ICMP,deep packet inspection,1
+Remote Exploitation,input validation and,1
+Remote Include via PHP Input,sanitize user input,1
+Remote Programming Attack,restrict access to,1
+Remote Timing Side-Channel,constant time crypto,1
+Remote Timing Side-Channel,use constant time,1
+Removable Media Attack,educate users not,1
+Removable Media Attack,use secure boot,1
+Removable Media Attack,users not to,1
+Representation Abuse / Identity Leak,add noise to,1
+Representation Exploit,add dp noise,1
+Resource Exhaustion,implement rate limiting,1
+Resource Exhaustion + Passive Sniffing,enable dhcp snooping,1
+Resource Exhaustion / Abuse,and alert on,1
+Resource Exhaustion / Abuse,implement rate limiting,1
+Resource Starvation via IPC Abuse,implement rate limiting,1
+Resource Starvation via IPC Abuse,rate limiting and,1
+Reuse of Authorized Session,use short lived,2
+Reuse of Authorized Session,to ip device,1
+Reuse of Captured Authorization Tokens,short lived tokens,1
+Reuse of Captured Authorization Tokens,use short lived,1
+Reuse of Old Signed Session/Tx Data,to ip device,1
+Reusing Refunds to Replay or Reenter Logic,checks effects interactions,1
+Reverse Engineering > Feature Unlock,enforce server side,1
+Reverse Engineering > Feature Unlock,server side validation,1
+Reverse Shell via DNS Tunneling / Covert Channel,and alert on,1
+Reverse Shell via DNS Tunneling / Covert Channel,deep packet inspection,1
+Reverse Shell via Script,constrained language mode,1
+Roaming Abuse,disable auto connect,1
+Rogue AP + Gateway Blackhole + DNS Hijack,open wi fi,1
+Rogue AP Attack,disable auto connect,1
+"Rogue AP, Evil Twin",disable auto connect,1
+Rogue Access Point (SSID Clone),public wi fi,1
+Rogue Access Point (SSID Spoofing),public wi fi,1
+Rogue DHCP Server Deployment,enable dhcp snooping,1
+Rogue Wi-Fi Hotspot,disable auto connect,1
+Rootkit,secure boot and,1
+Rootkit Deployment,disable macros by,1
+Rootkit Deployment,macros by default,1
+Rootkit Deployment,use only verified,1
+Runtime Binary Tampering to Infect New Containers,use read only,1
+S/MIME Signature Abuse or Spoofing,train users to,1
+SIM Toolkit Attack,from trusted sources,1
+SMB Exploitation for Pivot,enforce smb signing,1
+SMB Relay Attack,enforce smb signing,2
+SMB/NFS Share Abuse,use read only,1
+SMTP Header Injection,strict input validation,1
+SMTP Header Injection,validate and sanitize,1
+SMTP Password Brute Force,enforce strong passwords,1
+SMiShing (SMS Phishing),educate users on,1
+SMiShing (SMS Phishing),educate users to,1
+SMiShing (SMS Phishing),train users to,1
+SMiShing (SMS Phishing),users not to,1
+SMiShing (SMS Phishing),users to verify,1
+SOAP XML Deserialization Attack,validate and sanitize,1
+SOC Monitoring → Threat Detection,use behavior based,1
+SQL Injection,and validate all,2
+SQL Injection,sanitize all user,2
+SQL Injection,sanitize and validate,2
+SQL Injection,use parameterized queries,2
+SQL Injection ,strict input validation,1
+SQL Injection ,use parameterized queries,1
+SQL Injection - Blind Boolean Based,strict input validation,1
+SQL Injection - Blind Boolean-Based,use parameterized queries,1
+SQL Injection - Blind Time Based,use parameterized queries,1
+SQL Injection - Injection in Headers,and validate all,1
+SQL Injection - Injection in Headers,sanitize and validate,1
+SQL Injection - Inline Query Manipulation,strict input validation,1
+SQL Injection - Second Order,input validation and,1
+SQL Injection - Stacked Queries,use parameterized queries,1
+SQL Injection - Union Based,use parameterized queries,1
+SQL Injection / Command Injection,user input use,2
+SQL Injection / Command Injection,use parameterized queries,2
+SQL Injection / Command Injection,strict input validation,1
+SQL Injection / Command Injection,input validation and,1
+SQL Injection via File Upload Names,use parameterized queries,1
+SQL Injection via Stored Procedures,use parameterized queries,1
+SSH Key Reuse from Shared Volume,rotate keys regularly,2
+SSID Cloaking + Auto-connect Hijack,disable auto connect,1
+SSID Cloaking + Auto-connect Hijack,educate users to,1
+SSID Cloaking + Auto-connect Hijack,public wi fi,1
+SSL/TLS Downgrade + MITM Attack,educate users to,1
+SSL/TLS Downgrade + MITM Attack,users to verify,1
+SSO Assertion Hash Collision,rotate keys regularly,1
+SSRF + Server-Side Template Injection (SSTI),access to internal,1
+SSRF + Server-Side Template Injection (SSTI),block access to,1
+SSRF + Server-Side Template Injection (SSTI),to internal ips,1
+SSRF Proxy chaining through internal SSRF tool exposed,restrict access to,1
+SSRF through IP-based trust with spoofed headers,do not trust,1
+SSRF to Cloud Monitoring API,disable public access,1
+SSRF to Metadata Access,block access to,1
+SSRF using Unvalidated HTTP Referer Header,do not trust,1
+SSRF via Deserialization,validate and sanitize,1
+SSRF via Obfuscated Input Parameters,and validate all,1
+SSRF via malicious URL inside generated QR code,from user input,1
+SSRF → Remote Code Execution,sanitize and validate,1
+SSTI via Dynamic Template Loading,from user input,1
+STARTTLS Downgrade Attack,end to end,1
+"Same Prefix, Colliding Suffix",sha 256 or,1
+Scareware Delivery via Redirect,train users to,1
+Scripted API-Based Label Poisoning,anomaly detection on,1
+Scripted Build Tool Attack,do not trust,1
+Scripted Payload via PowerShell,constrained language mode,1
+Scripting Execution,via applocker or,1
+Secret Encoding via Poisoned Training Samples,and anomaly detection,1
+Secret Encoding via Poisoned Training Samples,anomaly detection on,1
+Secret Leak,store secrets in,1
+Secret Misuse in GitHub CI,use read only,1
+Secret Scanning Integration,short lived tokens,1
+Secret Scanning Integration,use short lived,1
+Secure Firmware Distribution,use code signing,1
+Self-Initiated Tool Execution with Memory Leakage,human in the,1
+Self-Initiated Tool Execution with Memory Leakage,in the loop,1
+Sensitive Attribute Recovery,apply differential privacy,1
+Sensitive Data Exposure,enforce least privilege,1
+Sensitive Data Exposure,restrict log access,1
+Sequential Attribution Reveals Behavioral Patterns,restrict access to,1
+Serial Console Attack,use secure boot,1
+Server-Side Port Discovery via DNS,access to internal,1
+Server-Side Port Discovery via DNS,block access to,1
+Server-Side Port Discovery via DNS,to internal ips,1
+Server-Side Port Scanning via XXE,validate and sanitize,1
+Server-Side Repo Enforcement,use server side,1
+Server-Side Request Forgery (SSRF),access to internal,2
+Server-Side Request Forgery (SSRF),block access to,2
+Server-Side Request Forgery (SSRF),to internal ips,2
+Server-Side Request Forgery (SSRF),sanitize and validate,1
+Server-side request bypass via URL tricks,access to internal,1
+Server-side request bypass via URL tricks,block access to,1
+Server-side request bypass via URL tricks,to internal ips,1
+Serverless Function Deserialization,apply least privilege,1
+Serverless Timing Leak,use constant time,1
+Session Hijacking,short lived tokens,1
+Session Hijacking,use short lived,1
+Session Hijacking / Token Replay,use short lived,1
+Session Hijacking via Cookie Replay,to ip device,1
+Session Hijacking via Fixation,from user input,1
+Session Hijacking via Fixation,user input use,1
+Session Hijacking via Predictable IDs,to ip device,1
+Session Hijacking via Predictable IDs,use long random,1
+Session Hijacking via Preimage,use long random,1
+Session Token Theft,to ip device,1
+Session/Cache Poisoning via Deserialization,restrict access to,1
+Shadow Model-Based Membership Attack,use differential privacy,1
+Shadow-to-Target Membership Inference,train with dp,1
+Shell Injection,sanitize user input,1
+Shell Injection,validate and sanitize,1
+Shortcut (.lnk) points to ADS payload for persistence,write access to,1
+Side Channel (Timing),add noise to,1
+Side Channel Attack (Power Analysis - Simple and Differential),use constant time,1
+Side-Channel (Timing),constant time crypto,1
+Side-Channel (Timing),use constant time,1
+Side-Channel + Hash Collision Hybrid Attack,use constant time,1
+Side-Channel Attack,implement constant time,1
+Side-Channel Monitoring via System Stats,restrict access to,1
+Side-Channel via Power Pattern Analysis,by default use,1
+Side-Channel via Session Validation Timing,use constant time,1
+Side-channel ML Model Theft,add noise to,1
+Side-channel Profiling,use constant time,1
+Signal Hijacking,multi factor authentication,4
+Signal Hijacking,use strong encryption,2
+Signal Hijacking,enforce least privilege,1
+Signature Collision on Emails or Messages,use sha 256,1
+Signing Infrastructure Compromise,rotate keys regularly,1
+Single Origin Session Misuse,do not trust,1
+Social Engineering,from user input,1
+Social Engineering,user input use,1
+Social Engineering + Drive-by Download,from unknown sources,1
+Social Engineering + Session Manipulation,train users to,1
+Social Engineering / Phishing,educate users not,1
+Social Engineering / Phishing,users not to,1
+Social Engineering / Supply Chain Poisoning,use only verified,1
+Social Engineering / Transaction Manipulation,educate users to,1
+Social Engineering / Transaction Manipulation,use hardware wallets,1
+Social Engineering / Transaction Manipulation,users to verify,1
+Software DPA / Table Lookup,use constant time,1
+Software License Preimage Forgery,on server side,1
+Source Code Leakage + Clipboard Attack via Static Reverse Engineering,store secrets in,1
+Spear Phishing with Payloads,by default use,1
+Spear Phishing with Payloads,disable macros by,1
+Spear Phishing with Payloads,educate users to,1
+Spear Phishing with Payloads,from unknown sources,1
+Spear Phishing with Payloads,macros by default,1
+Spoofed Routing Protocol Updates,if not needed,1
+Stager Analysis,alert on suspicious,1
+Startup Log Wipe,block access to,1
+Static Analysis,validate and sanitize,1
+Static Firmware Analysis,use secure boot,1
+Stealing Private Training Samples via API Prediction Patterns,differential privacy in,1
+Stealth Location Tracking via Legitimate Features,from unknown sources,1
+Stealth Poisoning with Correct Label,and anomaly detection,1
+Stealth Poisoning with Correct Label,anomaly detection on,1
+Steganographic Malware Delivery,by default use,1
+Steganographic Malware Delivery,disable macros by,1
+Steganographic Malware Delivery,educate users on,1
+Steganographic Malware Delivery,from unknown sources,1
+Steganographic Malware Delivery,macros by default,1
+Stolen Device Attack (ADB Exploitation Without Encryption),by default use,1
+Stolen Device Attack (ADB Exploitation Without Encryption),full disk encryption,1
+Stolen Device Attack (App Bypass due to No Biometrics),educate users on,1
+Stolen Device Attack (Chip-Level NAND Data Extraction),full disk encryption,1
+Stolen Device Attack (Physical Flash Dumping & Data Recovery),full disk encryption,1
+Stolen Device Attack (SIM Hijacking + Token Replay),full disk encryption,1
+Stored Cross-Site Scripting (XSS) in User Profiles,sanitize all user,1
+Stored Cross-Site Scripting via Upload Field,content security policy,1
+Stored Cross-Site Scripting via Upload Field,use content security,1
+Stored XSS,content security policy,1
+Stored XSS,use content security,1
+Stored XSS + document.cookie,sanitize all user,1
+Stored XSS via Comment Systems,sanitize all user,1
+Stored XSS via Event Attributes in HTML Tags,from user input,1
+Stored XSS via Event Attributes in HTML Tags,input validation and,1
+Stored XSSI (JS file hosted on same domain),content security policy,1
+Stored XSSI (JS file hosted on same domain),security policy csp,1
+Stored XSSI (JS file hosted on same domain),use content security,1
+Stuxnet-Style PLC Rootkit,do not allow,1
+Stuxnet-Style PLC Rootkit,input validation and,1
+Stuxnet-Style PLC Rootkit,strict input validation,1
+Subdomain Takeover,content security policy,1
+Subdomain Takeover via CNAME Hijack,in ci cd,1
+Subscription & Refund Abuse,server side validation,1
+Subtle Concept Corruption via Drift,human in the,1
+Subtle Concept Corruption via Drift,in the loop,1
+Supply Chain / CI-CD Compromise,role based access,1
+Supply Chain / Covert Location Tracking,from trusted sources,1
+Supply Chain Attack,from trusted sources,1
+Supply Chain Attack via Office Docs,disable macros by,1
+Supply Chain Attack via Office Docs,macros by default,1
+Supply Chain Threat Intelligence,disable debug ports,1
+Suspicious Parent Process,macros by default,1
+Sybil Attack on Multi-Sig Security,multi factor authentication,1
+Sybil and Fake Account Flooding,and anomaly detection,1
+Sync Misuse / Local-to-Cloud Leakage,use hardware wallets,1
+System Recon,limit access to,1
+Systemd Timer Exploitation,restrict write access,1
+Systemd Timer Exploitation,write access to,1
+TLS/SSL Certificate Reuse Attack,use short lived,1
+Tailored Hash Collision Exploit,sha 256 or,1
+Tailored Hash Collision Exploit,use sha 256,1
+Tapjacking (UI Overlay Attack),by default use,1
+Target Discovery + Setup,input validation and,1
+Targeted Dictionary Brute Force,users not to,1
+Targeted Poisoning in FL Clients,anomaly detection on,1
+Template Abuse via Prompt Injection,apply input validation,1
+Template Injection via Logs,never trust client,1
+Template Inversion from Biometrics,limit access to,1
+Tenant Isolation Bypass via ID/Token Tampering,never trust client,1
+Terraform Secrets Exposure,store secrets in,1
+Text-Based MIA on Transformers or RNNs,apply differential privacy,1
+Thematic Deception via Auto-Generated Fake Apps,educate users on,1
+Threshold Attack (Black-box Confidence Analysis),use differential privacy,1
+Time Logic Exploit,use server side,1
+Time Synchronization Attack,and multi source,8
+Time-based Credential Spray Evasion,use behavior based,1
+Timing + Power Analysis,use constant time,1
+Timing / Power Consumption Exploit,use constant time,1
+Timing Oracle using Network Delays,implement constant time,1
+Timing Oracle using Network Delays,use rsa oaep,1
+Timing Side-Channel,use constant time,1
+Timing Side-Channel as Padding Oracle Indicator,constant time crypto,1
+Timing Side-Channel as Padding Oracle Indicator,use constant time,1
+Timing Side-Channel in Login Verification,use constant time,1
+Timing Side-Channel on Nonce k,constant time crypto,1
+Timing Side-Channel on RSA Padding Checks,use constant time,1
+Timing and Call-Pattern Side-Channel,add noise to,1
+Timing on Elliptic Curve Computation,use constant time,1
+"Timing, Cache, or Power-based Extraction",constant time crypto,1
+"Timing, Cache, or Power-based Extraction",use constant time,1
+"Timing, Cache, or Power-based Extraction",use hardware wallets,1
+Timing-Based Password Validation Leak,implement constant time,1
+Token Bucket Reset Abuse,use server side,1
+Token Memorization via Logit Analysis,add noise to,1
+Token Persistence / Local Token Exposure,use server side,1
+Token Reuse / Server-Side Session Persistence,short lived tokens,1
+Token Reuse / Server-Side Session Persistence,use short lived,1
+Token Theft via Messaging Links,do not trust,1
+Token Validation Timing Side Channel,implement constant time,1
+Training Data Attribution using Influence Functions,add dp noise,1
+Training Data Inference using Replica (Shadow) Models,apply differential privacy,1
+Training Data Leak via Output Embedding Matching,apply differential privacy,1
+Training Data Memorization Leakage,apply differential privacy,1
+Training Data Memorization Leakage,differential privacy in,1
+Training Data Memorization and Leakage,use differential privacy,1
+Training Data Memorization via Prompt Completion,differential privacy in,1
+Training Data Memorization via Prompt Completion,use differential privacy,1
+Training Data Privacy Violation via Inference,differential privacy in,1
+Training Data Privacy Violation via Inference,use differential privacy,1
+Training Data Reconstruction via Output Exploitation,train with dp,1
+Transaction Cancellation via Fee Bumping,do not trust,1
+Transaction Replacement Attack,educate users on,1
+Transfer Attack,use only verified,1
+Transferability Attack Across Related Datasets,use adversarial training,1
+Trick User into Reusing Old Signed Messages,educate users to,1
+Trigger Injection,anomaly detection on,1
+Trojan Deployment & Remote Access Tools (RATs),disable macros by,1
+Trojan Deployment & Remote Access Tools (RATs),from unknown sources,1
+Trojan Deployment & Remote Access Tools (RATs),macros by default,1
+Trojanized Executable (Portable App),educate users on,1
+UART Debug Port Exploitation,disable debug ports,1
+UART Debug Port Exploitation,restrict access to,1
+UART Debug Port Exploitation,use secure boot,1
+UEFI DXE phase rootkit injection,use secure boot,1
+UI Deception / Overlay Attack,educate users on,1
+UI Disruption via Autofocus,from user input,1
+UI Redress / Clickjacking,educate users not,1
+UI Redress / Clickjacking,frame options deny,1
+UI Redress / Clickjacking,use frame options,1
+UI Redress / Clickjacking,users not to,1
+UI Redress Attack (Clickjacking),content security policy,1
+UI Redress Attack (Clickjacking),frame options deny,1
+UI Redressing & Extension Abuse,use frame options,1
+UI Redressing + Cookie Abuse,frame options deny,1
+UI Redressing and Embedded Page Hijack,frame options deny,1
+URL Injection / Remote Execution,use code signing,1
+Unauthorized Access to Cloud Storage Buckets,by default use,1
+Unauthorized Access to Cloud VPN/Firewall Admin Panels,to internal ips,1
+Unauthorized Access to Public Cloud Storage,by default use,1
+Unauthorized Access to Token-Gated Features,role based access,1
+Unauthorized Access via Default Database Admin Consoles,disable public access,1
+Unauthorized Access via Known Passwords,block access to,1
+Unauthorized Database Access,restrict access to,1
+Unauthorized File Overwrite / DoS / RCE,validate and sanitize,1
+Unauthorized Function Execution,role based access,1
+Unauthorized Index Access,disable public access,1
+Unauthorized Log Access,restrict log access,1
+Unauthorized Read/Write via SNMP Default Config,access to internal,1
+Unauthorized Read/Write via SNMP Default Config,to internal ips,1
+Universal Membership Classifier,use differential privacy,1
+Universal Patch-based Evasion,use adversarial training,1
+Unrestricted Minting of Tokens for Personal Gain,role based access,1
+Unrestricted PII Exposure via LLM → Tool Pipeline,apply input validation,1
+Unrestricted Script Execution,enforce least privilege,1
+Unsafe Auto-Approval,in ci cd,1
+Unsecured Web Management Portals on Storage Gateway Devices,disable public access,1
+Update-Based Membership Tracking,add dp noise,1
+Update-Based Membership Tracking,noise to gradients,1
+Use Dirty COW to overwrite executable on host mount,restrict access to,1
+Use a script or file open trick to launch ADS under elevated context,via applocker or,1
+User Activity,and alert on,1
+User Re-identification,add noise to,1
+UserData Misuse,store secrets in,1
+VBA Macro Execution in Office File,by default use,1
+VBA Macro Execution in Office File,disable macros by,1
+VBA Macro Execution in Office File,macros by default,1
+VLAN Hopping + Rogue DHCP,enable dhcp snooping,1
+Vehicle Control Manipulation,restrict write access,1
+ViewState Deserialization Attack,on server side,1
+Virtual Network Traffic Sniffing,apply least privilege,1
+Visual Backdoor,use adversarial training,1
+Visual Deception via Simulated Browser,educate users on,1
+Voice-Based Impersonation Attack,educate users not,1
+Voice-Based Impersonation Attack,users not to,1
+Voltage Faults + Power Analysis Combo,secure boot and,1
+Voltage Faults + Power Analysis Combo,use secure boot,1
+WPA2 Key Recovery from PMKID Hash,rotate keys regularly,1
+WPA2-Enterprise Rogue AP,educate users to,1
+Wallet Hijack via Public Wi-Fi Man-in-the-Middle,open wi fi,1
+WalletConnect Session Intercept,public wi fi,1
+Web Application Exploitation,implement constant time,1
+Web Recon,role based access,1
+Web Shell Communication,alert on suspicious,2
+Web-Based Credential Phishing,educate users to,1
+Web-Based Credential Phishing,users to verify,1
+Web/API Login Timing Side Channel,use constant time,1
+WebAssembly (Wasm) Exploitation,server side validation,1
+WebAssembly (Wasm) Exploitation,use server side,1
+WebView-Based Clipboard Hijacking via JavaScript Injection,do not allow,1
+Wi-Fi Credential Harvest + Offline Attack,rotate keys regularly,1
+Wi-Fi Credential Harvest + Offline Attack,users not to,1
+Wi-Fi Credential Theft / Social Engineering,auto connect to,1
+Wi-Fi Credential Theft / Social Engineering,disable auto connect,1
+Wi-Fi Credential Theft / Social Engineering,train users to,1
+Wi-Fi Credential Theft / Social Engineering,users to verify,1
+Wi-Fi Fake AP + Credential Harvesting,open wi fi,1
+Wi-Fi Rogue AP,open wi fi,1
+"Wi-Fi Sniffing, Session Hijacking",public wi fi,1
+Windows Hash Capture via Forced Auth Trigger,enforce smb signing,1
+Wireless - Jamming + Timing Attack,implement constant time,1
+Wireless - Side Channel via Wi-Fi 6,use constant time,1
+Wireless - Social Engineering / Auto-Connect,disable auto connect,1
+Wireless Attack,disable auto connect,1
+Wireless Attacks (Advanced),constant time crypto,2
+Wireless Attacks (Advanced),auto connect to,1
+Wireless Attacks (Advanced),disable auto connect,1
+Wireless Attacks (Advanced),implement constant time,1
+Wireless Authentication Bypass / MITM,auto connect to,1
+Wireless Authentication Bypass / MITM,disable auto connect,1
+Wireless Authentication Bypass / MITM,train users to,1
+Wireless Denial-of-Service (Beacon Storm),auto connect to,1
+Wireless Denial-of-Service (Beacon Storm),disable auto connect,1
+Wireless Denial-of-Service (Layer 2 Disruption),open wi fi,1
+Wireless Exploit,disable auto connect,1
+Wireless MITM via ARP Spoof,dynamic arp inspection,1
+Wireless Probe Response MITM,disable auto connect,1
+Wireless Recon,block access to,1
+Wireless Replay & Emulation Attack on AI Agents,auto connect to,1
+Wireless Replay & Emulation Attack on AI Agents,disable auto connect,1
+Wireless Traffic Capture,public wi fi,1
+Wireless Traffic Capture,use strong encryption,1
+Workflow Manipulation via Deserialization,validate and sanitize,1
+XAML Script Execution,restrict access to,1
+XSS via SVG Embedded Scripts,content security policy,1
+XSS via SVG Embedded Scripts,disable script execution,1
+XSS via SVG Embedded Scripts,script execution in,1
+XSS via SVG Embedded Scripts,use content security,1
+Zero-day Exploit Delivery via Email,train users to,1
+Zero-day Exploit Delivery via Email,users to verify,1
+Zigbee Replay & Injection,rate limiting and,1
+iframe Content Access,use frame options,1
